@@ -54,6 +54,20 @@ body {
   }
 }
 
+@media print, screen and (max-width: 576px) {
+  .header_inner,
+  .footer_inner,
+  .top_inner,
+  .products_inner {
+    padding: 0px 8vw;
+  }
+
+  .about_inner,
+  .company_inner {
+    padding: 0px 8vw;
+  }
+}
+
 /* ----------------------------------------- */
 /* header */
 /* ----------------------------------------- */
@@ -415,6 +429,10 @@ body {
 }
 
 @media print, screen and (max-width: 576px) {
+  .products_detail_inner {
+    padding: 0px 8vw;
+  }
+
   .detail_text .spec_list dd {
     width: 60%;
   }
